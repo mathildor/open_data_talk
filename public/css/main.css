@@ -1,0 +1,49 @@
+
+body{
+    font-family: "Avenir Next";
+    font-family: "Avenir Next", Avenir, "Droid Sans", "DroidSansRegular", Corbel, Tahoma, Geneva, sans-serif;
+    font-weight: 400;
+    width: 100%;
+}
+h1{
+    font-weight: 300;
+    text-align: center;
+}
+
+#content{
+    width: 95%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#map{
+    width: 100%;
+    max-width: 1300px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btn{
+    float: right;
+    margin-bottom: 10px;
+}
+
+button{
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #374f86;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 3px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.active{
+    background-color: #7f98b1;
+}
